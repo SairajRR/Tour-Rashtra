@@ -109,37 +109,54 @@ in your browser.
 
 ## ⚠ Image Folder Setup
 
-The website expects images to be stored inside a folder called **Img**.
+The website uses an **Img** folder to store the images used across different pages.
 
-After downloading the project, create a folder named:
+After downloading or cloning the project, make sure the following folder exists inside the main project directory:
 
 ```
 Img
 ```
 
-inside the main project directory.
+Place the required images inside this folder. The project currently uses the following image files:
 
-Example:
+```
+Img/
+│
+├── book.jpg
+├── logo.png
+├── standing.jpg
+├── stering.jpg
+└── TourRashtra.jpg
+```
+
+Example final project structure:
 
 ```
 TourRashtra
 │
 ├── Img
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   └── image3.jpg
+│   ├── book.jpg
+│   ├── logo.png
+│   ├── standing.jpg
+│   ├── stering.jpg
+│   └── TourRashtra.jpg
 │
 ├── index.html
+├── About.html
+├── Blogs.html
+├── Contact.html
+├── style.css
 └── other files...
 ```
 
-All the images used in the website should be placed inside this folder because the code references them using:
+These images are referenced in the HTML files using paths like:
 
 ```
 Img/filename.jpg
 ```
 
----
+So if the **Img folder is missing or empty**, some images on the website will not load correctly.
+
 
 ## 👨‍💻 Author
 
