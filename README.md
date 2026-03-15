@@ -1,79 +1,69 @@
 # TourRashtra 🌍
 
-### Maharashtra's Personal Tour Assistant
+**TourRashtra** is a small web project built to explore tourist places in **Maharashtra** using an interactive map and location-based suggestions.
+The main idea behind the project is to make a simple tourism website where users can see nearby locations directly on a map.
 
-**TourRashtra** is a JavaScript-driven tourism web application that helps users explore tourist destinations in Maharashtra using **interactive maps and real-time location detection**.
-
-The core functionality of the website is powered by **JavaScript**, including map rendering, geolocation detection, and dynamic tourist location markers.
-
----
-
-# 🚀 Core Technologies
-
-### JavaScript (Primary Technology)
-
-* **Leaflet.js** – Interactive map rendering
-* **Geolocation API** – Detects the user's real-time location
-* **OpenStreetMap API** – Provides map tiles and geographic data
-* **DOM Manipulation** – Dynamic UI interaction
-* **Event Handling** – User interaction with map elements
-
-### Frontend
-
-* HTML5
-* CSS3
+Most of the functionality in this project is handled using **JavaScript**, especially for map rendering and location detection.
 
 ---
 
-# ⚡ JavaScript Features Implemented
+## 🛠 Technologies Used
 
-### 📍 Live User Location Detection
+* **JavaScript** (main functionality)
+* **Leaflet.js** – interactive map rendering
+* **Geolocation API** – detecting user location
+* **OpenStreetMap** – map data provider
+* **HTML5**
+* **CSS3**
 
-Uses the **JavaScript Geolocation API** to detect the user's latitude and longitude and place a marker on the map.
-
-### 🗺 Interactive Map Rendering
-
-The map is dynamically generated using **Leaflet.js**, allowing zooming, panning, and location markers.
-
-### 📌 Tourist Location Markers
-
-JavaScript places markers on the map representing tourist locations, enabling users to easily explore nearby attractions.
-
-### 🌐 Dynamic Map Interaction
-
-JavaScript controls the user interaction with the map including marker popups and location tracking.
+JavaScript is used to dynamically load maps, detect the user's location, and place markers on the map.
 
 ---
 
-# 📸 Website Preview
+## ✨ Features
 
-## Home Page
-
-![Home Page](images/home.png)
-
----
-
-## Live Location Detection (JavaScript Geolocation API)
-
-![User Location](images/map-location.png)
+* 📍 Detects user's current location
+* 🗺 Displays an interactive map
+* 📌 Shows tourist places using map markers
+* 📑 Multi-page website (Home, About, Blogs, Contact)
+* 📬 Contact page with a simple query form
+* 🎨 Clean responsive layout
 
 ---
 
-## Tourist Location Mapping (Leaflet.js)
+## 📸 Website Preview
 
-![Tourist Map](images/tourist-map.png)
+### Home Page
 
----
-
-## Contact Page
-
-![Contact Page](images/contact-page.png)
+![Home](home.png)
 
 ---
 
-# 🛠 Project Structure
+### Live Location Detection
 
-```id="4t3hsv"
+Shows the user's current location using the **JavaScript Geolocation API**.
+
+![Location](map-location.png)
+
+---
+
+### Tourist Locations Map
+
+Tourist places displayed using **Leaflet.js markers**.
+
+![Tourist Map](tourist-map.png)
+
+---
+
+### Contact Page
+
+![Contact](contact-page.png)
+
+---
+
+## 📂 Project Structure
+
+```
 TourRashtra
 │
 ├── index.html
@@ -87,28 +77,29 @@ TourRashtra
 ├── Contact.css
 ├── range_slider.css
 │
-├── Img/
+├── range_slider.html
 │
-└── images/
-    ├── home.png
-    ├── map-location.png
-    ├── tourist-map.png
-    └── contact-page.png
+├── home.png
+├── map-location.png
+├── tourist-map.png
+├── contact-page.png
+│
+└── README.md
 ```
 
 ---
 
-# 💻 How to Run
+## 💻 Running the Project
 
-Clone the repository
+Clone the repository:
 
-```id="i8t8g6"
+```
 git clone https://github.com/yourusername/TourRashtra.git
 ```
 
 Open the project folder and run:
 
-```id="8o3q1o"
+```
 index.html
 ```
 
@@ -116,19 +107,44 @@ in your browser.
 
 ---
 
-# 🎯 Learning Outcomes
+## ⚠ Image Folder Setup
 
-* Implementing **interactive maps using JavaScript**
-* Using **Leaflet.js for geographic visualization**
-* Working with the **Browser Geolocation API**
-* Building **JavaScript-based UI interaction**
+The website expects images to be stored inside a folder called **Img**.
+
+After downloading the project, create a folder named:
+
+```
+Img
+```
+
+inside the main project directory.
+
+Example:
+
+```
+TourRashtra
+│
+├── Img
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   └── image3.jpg
+│
+├── index.html
+└── other files...
+```
+
+All the images used in the website should be placed inside this folder because the code references them using:
+
+```
+Img/filename.jpg
+```
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Sairaj Reddy**
 
 ---
 
-⭐ If you like the project, consider giving it a star on GitHub.
+⭐ If you like the project, feel free to give it a star.
